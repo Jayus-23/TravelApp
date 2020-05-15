@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:background="@drawable/shap_4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:id="@+id/et"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:hint="请输入地址"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_s"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="搜索"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_yy"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="语音"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

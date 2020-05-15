@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+     android:id="@+id/name"
+        android:layout_weight="1"
+        android:text="菜名"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+       android:id="@+id/jg"
+        android:layout_weight="1"
+        android:text="价格"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+       android:id="@+id/fl"
+        android:layout_weight="1"
+        android:text="分量"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:gravity="center"
+      android:id="@+id/kw"
+        android:layout_weight="1"
+        android:text="口味"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" /> <TextView
+    android:gravity="center"
+    android:id="@+id/hj"
+    android:layout_weight="1"
+    android:text="环境"
+    android:layout_width="0dp"
+    android:layout_height="match_parent" />
+</LinearLayout>

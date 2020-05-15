@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:text="修改个人信息"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+  <LinearLayout
+      android:gravity="center_vertical"
+      android:padding="@dimen/dp_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="头像"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:src="@drawable/d_head"
+          android:id="@+id/iv_head"
+          android:layout_width="50dp"
+          android:layout_height="50dp" />
+  </LinearLayout>
+    <LinearLayout
+      android:gravity="center_vertical"
+      android:padding="@dimen/dp_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="账号"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:id="@+id/tv_account"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout><LinearLayout
+      android:gravity="center_vertical"
+      android:padding="@dimen/dp_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="性别"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <Spinner
+
+          android:id="@+id/tv_sex"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout><LinearLayout
+      android:gravity="center_vertical"
+      android:padding="@dimen/dp_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="昵称"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <EditText
+          android:textSize="14sp"
+          android:hint="请输入"
+          android:background="@null"
+          android:id="@+id/tv_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout><LinearLayout
+      android:gravity="center_vertical"
+      android:padding="@dimen/dp_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:text="年龄："
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <EditText
+          android:textSize="14sp"
+          android:hint="请输入"
+          android:background="@null"
+          android:id="@+id/tv_cardnum"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout>
+
+
+    <TextView
+            android:textColor="@color/white"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:gravity="center"
+        android:text="修改"
+        android:id="@+id/tv_up"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
